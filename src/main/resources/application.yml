@@ -1,0 +1,26 @@
+my:
+  custom:
+    property: Hello from application properties
+    bool: false
+
+---
+spring:
+  config:
+    activate:
+      on-profile: jaz
+my:
+  custom:
+    property: Hello from jaz
+    random: Some random
+    bool: true
+
+---
+spring:
+  config:
+    activate:
+      on-profile: homework1
+  my:
+    custom:
+      property: Hello from homework1
+      random: Some randomize
+      bool: true
