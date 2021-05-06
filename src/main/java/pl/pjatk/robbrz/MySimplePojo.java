@@ -18,4 +18,7 @@ public class MySimplePojo {
     public Integer geta() {
         return a;
     }
+
+    public void printOutMe() {
+    }
 }
